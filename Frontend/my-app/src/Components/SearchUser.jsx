@@ -12,7 +12,7 @@ function SearchUser(){
     if (!username.trim()) return;
 
     axios
-      .get(`http://localhost:3000/files?username=${username}`)
+      .get(`https://insta-api-m3zc.onrender.com/files?username=${username}`)
       .then((response) => {
         setSearchResults(response.data);
         setError("");

@@ -18,7 +18,7 @@ function ShowPost(props){
 
   const fetchFiles = () => {
     axios
-      .get("http://localhost:3000/files")
+      .get("https://insta-api-m3zc.onrender.com/files")
       .then((response) => {
         setFiles(response.data);
       })
@@ -29,7 +29,7 @@ function ShowPost(props){
 
   const handleDelete = (id) => {
     axios
-      .delete(`http://localhost:3000/delete/${id}`)
+      .delete(`https://insta-api-m3zc.onrender.com/delete/${id}`)
       .then(() => {
         setMessage("Post deleted successfully.");
         fetchFiles();

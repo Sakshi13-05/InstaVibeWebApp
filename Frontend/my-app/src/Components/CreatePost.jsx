@@ -25,7 +25,7 @@ function CreatePost(props){
     formData.append("caption", caption);
 
     try {
-      await axios.post("http://localhost:3000/upload", formData, {
+      await axios.post("https://insta-api-m3zc.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setMessage("Post created successfully!");
