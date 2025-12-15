@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Styles.css";
+import "./styles.css";
 
 function SearchUser(){
   const [username, setUsername] = useState("");
