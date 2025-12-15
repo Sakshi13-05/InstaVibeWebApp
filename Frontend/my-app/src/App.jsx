@@ -3,7 +3,7 @@ import SearchUser from "./Components/SearchUser";
 import Click from "./Components/Click";
 import CreatePost from "./Components/CreatePost";
 import ShowPost from "./Components/ShowPost";
-import "./components/Main.css";
+import "./Components/Main.css";
 import { TiSocialInstagramCircular } from "react-icons/ti";
 import { BsCameraFill } from "react-icons/bs";
 const App = () => {
